@@ -6,14 +6,15 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         int tracker = 0;
-        String[] validGuesses = new String[10656];
+        int tracker2 = 0;
+        String[] validGuesses = new String[10657];
+        String[] validAnswers = new String[2315];
         Scanner sc = null;
         try {
-            sc = new Scanner(new File("C:\\Users\\arjun\\Desktop\\ \\Code\\GitHub\\WordleSolver\\valid_guesses.csv"));
+            sc = new Scanner(new File("/Users/arjun/Documents/GitHub/WordleSolver/valid_guesses.csv"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        sc.useDelimiter(",");   //sets the delimiter pattern
         while (sc.hasNext())  //returns a boolean value
         {
             String word = sc.next();
@@ -24,5 +25,20 @@ public class Main {
         }
         sc.close();  //closes the scanner
 
+        Scanner sc2 = null;
+        try {
+            sc2 = new Scanner(new File("/Users/arjun/Documents/GitHub/WordleSolver/valid_solutions.csv"));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        while (sc2.hasNext())  //returns a boolean value
+        {
+            String word = sc2.next();
+            if (!(word.equals("word"))){
+                validAnswers[tracker2] = word;
+                tracker2++;
+            }
+        }
+        sc2.close();  //closes the scanner
     }
 }
