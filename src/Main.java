@@ -74,7 +74,16 @@ public class Main {
         Scanner scn = new Scanner(System.in);  // Create a Scanner object for getting the word the user inputted
         System.out.println("Your inputted word: ");
         String response = scn.nextLine(); 
-        if (!response.equals("reroll")){
+        if (response.equals("list")){
+            for (int i = 0; i < refinedAnswers.size(); i ++){
+                System.out.print(refinedAnswers.get(i));
+                if (i != refinedAnswers.size() - 1){
+                    System.out.print(", ");
+                }
+            }
+            System.out.println("");
+        }
+        else if (!response.equals("reroll")){
             for (int i = 0; i < word.length; i++){
                 word[i] = response.substring(i, i+1).charAt(0);
             }
@@ -111,7 +120,7 @@ public class Main {
                 }
                 if (result[i] == 'g'){
                     for (int j = 0; j < refinedAnswers.size(); j++){
-                        if (refinedAnswers.get(j).indexOf(word[i]) != i){
+                        if (refinedAnswers.get(j).charAt(i) != word[i]){
                             removeList.add(refinedAnswers.get(j));
                         }
                     }
