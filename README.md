@@ -15,3 +15,6 @@ Eg: if you use "```list```" and it shows you the following:
 
 It is quite clear that almost all of these words are not going to be the solution, they are merely used to gather information while narrowing down possibilites. From that list, I would cancel the (possible) solutions down to: "booky", "block", "blood", "bloom", and maybe "bobby". These are quite similar, so you could pick any one and return a more narrowed down list.
 
+The program file can be found at ```src/Main.java``` or [this link](https://github.com/prolvldoggo/WordleSolver/blob/78b8ba27b2e18945b12ed62043ce4fc794f08a5d/src/Main.java).
+
+I hope this helps!
