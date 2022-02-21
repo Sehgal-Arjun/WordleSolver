@@ -11,14 +11,39 @@ public class Main {
     public static ArrayList<Character> blackLetters = new ArrayList<Character>();
     public static ArrayList<String> refinedAnswers = new ArrayList<String>();
     public static int count = 0;
+    public static ArrayList<String> words = new ArrayList<String>();
+    public static ArrayList<Integer> wordFreq = new ArrayList<Integer>();
 
     public static void main(String[] args) {
 	// write your code here
         setVariables();
+        setWordFrequencyList();
         boolean finished = false;
         while (!finished){
             finished = findWord();
         }
+    }
+
+    public static void setWordFrequencyList(){
+        Scanner sc = null;
+        try {
+            sc = new Scanner(new File("/Users/arjun/Documents/GitHub/WordleSolver/unigram_freq.csv"));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        while (sc.hasNext())  //returns a boolean value
+        {
+            String word = sc.next();
+            if (!(word.equals("word,count"))){
+
+                String[] list = word.split(",");
+                if (list[0].length() == 5){
+                    words.add(list[0]);
+                    wordFreq.add(Integer.parseInt(list[1]));
+                }
+            }
+        }
+        sc.close();  //closes the scanner
     }
 
     public static void setVariables(){
@@ -74,7 +99,10 @@ public class Main {
         Scanner scn = new Scanner(System.in);  // Create a Scanner object for getting the word the user inputted
         System.out.println("Your inputted word: ");
         String response = scn.nextLine(); 
-        if (response.equals("list")){
+        if (response.equals("done")){
+            return true;
+        }
+        else if (response.equals("list")){
             for (int i = 0; i < refinedAnswers.size(); i ++){
                 System.out.print(refinedAnswers.get(i));
                 if (i != refinedAnswers.size() - 1){
@@ -151,7 +179,16 @@ public class Main {
         }
 
         Random rand = new Random();
-        System.out.println("Recommendation: " + refinedAnswers.get(rand.nextInt(refinedAnswers.size())));
+        String finalWord = refinedAnswers.get(rand.nextInt(refinedAnswers.size()));
+        for (int i = 1; i < refinedAnswers.size(); i++){
+            if (words.contains(refinedAnswers.get(i))){
+                int index = words.indexOf(refinedAnswers.get(i));
+                if (wordFreq.get(index) > wordFreq.get(index-1)){
+                    finalWord = words.get(index);
+                }
+            }
+        }
+        System.out.println("Recommendation: " + finalWord);
 
         return false;
     }
