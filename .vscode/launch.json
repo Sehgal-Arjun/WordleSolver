@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Testing",
+            "request": "launch",
+            "mainClass": "Testing",
+            "projectName": "WordleSolver_e5dce238"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
