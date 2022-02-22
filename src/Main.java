@@ -134,11 +134,11 @@ public class Main {
                 }
                 if (result[i] == 'y'){
                     for (int j = 0; j < refinedAnswers.size(); j++){
-                        if (refinedAnswers.get(j).indexOf(word[i]) != -1){
-                            if (refinedAnswers.get(i).indexOf(word[i]) == i){
-                                if(!refinedAnswers.contains(refinedAnswers.get(j))){ 
-                                    removeList.add(refinedAnswers.get(j));
-                                }
+                        String currentWord = refinedAnswers.get(j);
+                        Character yellowLetter = word[i];
+                        if (currentWord.indexOf(yellowLetter) != -1){
+                            if (currentWord.charAt(i) == yellowLetter){
+                                removeList.add(currentWord);
                             }
                         }
                         else{
@@ -183,8 +183,11 @@ public class Main {
         for (int i = 1; i < refinedAnswers.size(); i++){
             if (words.contains(refinedAnswers.get(i))){
                 int index = words.indexOf(refinedAnswers.get(i));
-                if (wordFreq.get(index) > wordFreq.get(index-1)){
-                    finalWord = words.get(index);
+                if (words.indexOf(refinedAnswers.get(i-1)) != -1){
+                    int prevIndex = words.indexOf(refinedAnswers.get(i-1));
+                    if (wordFreq.get(index) > wordFreq.get(prevIndex)){
+                        finalWord = words.get(index);
+                    }
                 }
             }
         }
