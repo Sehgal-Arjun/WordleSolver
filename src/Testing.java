@@ -97,9 +97,11 @@ public class Testing {
         for (int i = 0; i < validAnswers.length; i++){
             String nextGuess = testingWord(validAnswers[i], "salet");
             while (!nextGuess.equals(validAnswers[i])){
-                nextGuess = testingWord(validAnswers[i], nextGuess);
                 guesses.add(nextGuess);
+                nextGuess = testingWord(validAnswers[i], nextGuess);
             }
+            guesses.add(validAnswers[i]);
+            count++;
             //System.out.println(validAnswers[i] + ": " + count + " guesses.");
             save(validAnswers[i], guesses, count);
             count = 0;
@@ -115,6 +117,7 @@ public class Testing {
             guesses.add(originalWord);
             num++;
         }
+        ///*
 
         try{
             FileWriter fw = new FileWriter("/Users/arjun/Documents/GitHub/WordleSolver/wordleBotSolverResults.csv", true);
@@ -128,8 +131,9 @@ public class Testing {
         }
         catch (Exception E){
 
-
+            System.out.println("error");
         }
+        //*/
     }
 
     public static String testingWord(String wordle, String input){
