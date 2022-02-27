@@ -17,13 +17,20 @@ public class Testing {
     public static ArrayList<String> backupRefinedAnswers = refinedAnswers;
     public static ArrayList<String> guesses = new ArrayList<String>();
     public static int count = 0;
-    public static ArrayList<String> words = new ArrayList<String>();
-    public static ArrayList<Integer> wordFreq = new ArrayList<Integer>();
+    public static ArrayList<wordFrequency> listOfWords = new ArrayList<wordFrequency>();
+    public static ArrayList<Double> findAverage = new ArrayList<Double>();
+    public static int sum = 0;
+    public static int wordTracker = 0;
     public static void main(String[] args){
         setVariables();
-        guesses.add("salet");
+        guesses.add(validAnswers[wordTracker]); //"salet"
         setWordFrequencyList();
         test();
+        int totalCount = 0;
+        for (int i = 0; i < findAverage.size(); i++){
+            totalCount += findAverage.get(i);
+        }
+        sum = totalCount/findAverage.size();
     }
 
     public static void setVariables(){
@@ -85,8 +92,7 @@ public class Testing {
 
                 String[] list = word.split(",");
                 if (list[0].length() == 5){
-                    words.add(list[0]);
-                    wordFreq.add(Integer.parseInt(list[1]));
+                    listOfWords.add(new wordFrequency(list[0], Integer.parseInt(list[1])));
                 }
             }
         }
@@ -95,7 +101,7 @@ public class Testing {
     
     public static void test(){
         for (int i = 0; i < validAnswers.length; i++){
-            String nextGuess = testingWord(validAnswers[i], "salet");
+            String nextGuess = testingWord(validAnswers[i], validAnswers[wordTracker]); // "salet", second parameter
             while (!nextGuess.equals(validAnswers[i])){
                 guesses.add(nextGuess);
                 nextGuess = testingWord(validAnswers[i], nextGuess);
@@ -104,29 +110,31 @@ public class Testing {
             count++;
             //System.out.println(validAnswers[i] + ": " + count + " guesses.");
             save(validAnswers[i], guesses, count);
+            findAverage.add(Double.valueOf(count));
             count = 0;
             setVariables();
             blackLetters.clear();
             guesses.clear();
-            guesses.add("salet");
+            guesses.add(validAnswers[wordTracker]); // "salet"
         }
     }
 
     public static void save(String originalWord, ArrayList<String> guesses, int num){
+    
         if (num == 1){
             guesses.add(originalWord);
             num++;
         }
-        ///*
 
         try{
-            FileWriter fw = new FileWriter("/Users/arjun/Documents/GitHub/WordleSolver/wordleBotSolverResults.csv", true);
+            FileWriter fw = new FileWriter("/Users/arjun/Documents/GitHub/WordleSolver/wordleBotSolverResultsIdeas.csv", true);
             BufferedWriter bw = new BufferedWriter(fw);
             PrintWriter pw = new PrintWriter(bw);
 
             String text = guesses.stream().map(Object::toString).collect(Collectors.joining(", "));
 
-            pw.println(originalWord + "," + "\"" + text + "\"" + "," + num);
+            //pw.println(originalWord + "," + "\"" + text + "\"" + "," + num);
+            pw.println(wordTracker + "," + originalWord + findAverage)
             pw.flush();        
         }
         catch (Exception E){
@@ -214,20 +222,35 @@ public class Testing {
         }
         
 
-        String finalWord = refinedAnswers.get(0);
-        for (int i = 1; i < refinedAnswers.size(); i++){
-            if (words.contains(refinedAnswers.get(i))){
-                int index = words.indexOf(refinedAnswers.get(i));
-                if (words.indexOf(refinedAnswers.get(i-1)) != -1){
-                    int prevIndex = words.indexOf(refinedAnswers.get(i-1));
-                    if (wordFreq.get(index) > wordFreq.get(prevIndex)){
-                        finalWord = words.get(index);
+        Random rand = new Random();
+        String finalWord = refinedAnswers.get(rand.nextInt(refinedAnswers.size()));
+        ArrayList<String> words = new ArrayList<String>();
+        ArrayList<Integer> wordFreq = new ArrayList<Integer>();
+        int score = 0;
+        wordFrequency finalElement = new wordFrequency(refinedAnswers.get(0), 0);
+        for (int i = 0; i < listOfWords.size(); i++){
+            words.add(listOfWords.get(i).getWord());
+            wordFreq.add(listOfWords.get(i).getNum());
+        }
+        for (int i = 0; i < refinedAnswers.size(); i++){
+            if (!words.contains(refinedAnswers.get(i))){
+                score = 0;
+            }
+            else{
+                wordFrequency element = new wordFrequency(refinedAnswers.get(0), 0);
+                for (int j = 0; j < listOfWords.size(); j++){
+                    if (listOfWords.get(j).getWord().equals(refinedAnswers.get(i))){
+                        element = listOfWords.get(j);
                     }
+                }
+                if (element.getNum() > score){
+                    score = element.getNum();
+                    finalElement = element;
                 }
             }
         }
 
-
+        finalWord = finalElement.getWord();
         return finalWord;
     }
     

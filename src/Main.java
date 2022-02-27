@@ -11,8 +11,7 @@ public class Main {
     public static ArrayList<Character> blackLetters = new ArrayList<Character>();
     public static ArrayList<String> refinedAnswers = new ArrayList<String>();
     public static int count = 0;
-    public static ArrayList<String> words = new ArrayList<String>();
-    public static ArrayList<Integer> wordFreq = new ArrayList<Integer>();
+    public static ArrayList<wordFrequency> listOfWords = new ArrayList<wordFrequency>();
 
     public static void main(String[] args) {
 	// write your code here
@@ -38,8 +37,7 @@ public class Main {
 
                 String[] list = word.split(",");
                 if (list[0].length() == 5){
-                    words.add(list[0]);
-                    wordFreq.add(Integer.parseInt(list[1]));
+                    listOfWords.add(new wordFrequency(list[0], Integer.parseInt(list[1])));
                 }
             }
         }
@@ -180,17 +178,33 @@ public class Main {
 
         Random rand = new Random();
         String finalWord = refinedAnswers.get(rand.nextInt(refinedAnswers.size()));
-        for (int i = 1; i < refinedAnswers.size(); i++){
-            if (words.contains(refinedAnswers.get(i))){
-                int index = words.indexOf(refinedAnswers.get(i));
-                if (words.indexOf(refinedAnswers.get(i-1)) != -1){
-                    int prevIndex = words.indexOf(refinedAnswers.get(i-1));
-                    if (wordFreq.get(index) > wordFreq.get(prevIndex)){
-                        finalWord = words.get(index);
+        ArrayList<String> words = new ArrayList<String>();
+        ArrayList<Integer> wordFreq = new ArrayList<Integer>();
+        int score = 0;
+        wordFrequency finalElement = new wordFrequency(refinedAnswers.get(0), 0);
+        for (int i = 0; i < listOfWords.size(); i++){
+            words.add(listOfWords.get(i).getWord());
+            wordFreq.add(listOfWords.get(i).getNum());
+        }
+        for (int i = 0; i < refinedAnswers.size(); i++){
+            if (!words.contains(refinedAnswers.get(i))){
+                score = 0;
+            }
+            else{
+                wordFrequency element = new wordFrequency(refinedAnswers.get(0), 0);
+                for (int j = 0; j < listOfWords.size(); j++){
+                    if (listOfWords.get(j).getWord().equals(refinedAnswers.get(i))){
+                        element = listOfWords.get(j);
                     }
+                }
+                if (element.getNum() > score){
+                    score = element.getNum();
+                    finalElement = element;
                 }
             }
         }
+
+        finalWord = finalElement.getWord();
         System.out.println("Recommendation: " + finalWord);
 
         return false;
