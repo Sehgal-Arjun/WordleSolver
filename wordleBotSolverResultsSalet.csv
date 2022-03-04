@@ -62,7 +62,7 @@ alloy,"salet, allow, alloy",3
 aloft,"salet, adult, aloft",3
 alone,"salet, email, clear, alone",4
 along,"salet, local, along",3
-aloof,"salet, local, along, aloud, aloha, aloof",6
+aloof,"salet, local, along, aloud, aloof",5
 aloud,"salet, local, along, aloud",4
 alpha,"salet, local, album, alpha",4
 altar,"salet, total, altar",3
@@ -89,12 +89,12 @@ annex,"salet, agree, annex",3
 annoy,"salet, board, among, annoy",4
 annul,"salet, local, awful, annul",4
 anode,"salet, media, grade, abode, anode",5
-antic,"salet, today, attic, artic, antic",5
+antic,"salet, today, attic, antic",4
 anvil,"salet, local, awful, avail, anvil",5
-aorta,"salet, today, porta, aorta",4
+aorta,"salet, today, aorta",3
 apart,"salet, about, apart",3
-aphid,"salet, board, jihad, aphid",4
-aping,"salet, board, human, aging, axing, aping",6
+aphid,"salet, board, aphid",3
+aping,"salet, board, human, aging, aping",5
 apnea,"salet, agree, annex, apnea",4
 apple,"salet, email, clear, apple",4
 apply,"salet, local, album, apply",4
@@ -113,9 +113,9 @@ arrow,"salet, board, arrow",3
 arson,"salet, crash, arson",3
 artsy,"salet, vista, trash, artsy",4
 ascot,"salet, coast, ascot",3
-ashen,"salet, ayres, asked, aspen, ashen",5
+ashen,"salet, askew, ashen",3
 aside,"salet, phase, aside",3
-askew,"salet, ayres, asked, askew",4
+askew,"salet, askew",2
 assay,"salet, crash, assay",3
 asset,"salet, asset",2
 atoll,"salet, total, atoll",3
@@ -129,7 +129,7 @@ avail,"salet, local, awful, avail",4
 avert,"salet, great, avert",3
 avian,"salet, board, human, avian",4
 avoid,"salet, board, avoid",3
-await,"salet, about, apart, avant, await",5
+await,"salet, about, apart, await",4
 awake,"salet, media, above, aware, awake",5
 award,"salet, board, award",3
 aware,"salet, media, above, aware",4
@@ -138,7 +138,7 @@ awful,"salet, local, awful",3
 awoke,"salet, media, above, awoke",4
 axial,"salet, local, final, axial",4
 axiom,"salet, board, among, axiom",4
-axion,"salet, board, among, annoy, avion, axion",6
+axion,"salet, board, among, annoy, axion",5
 azure,"salet, media, above, aware, azure",5
 bacon,"salet, march, canon, bacon",4
 badge,"salet, range, gauge, badge",4
@@ -147,7 +147,7 @@ bagel,"salet, panel, label, bagel",4
 baggy,"salet, march, daddy, nanny, jazzy, baggy",6
 baker,"salet, paper, maker, baker",4
 baler,"salet, baler",2
-balmy,"salet, valid, ralph, walla, balmy",5
+balmy,"salet, valid, ralph, balmy",4
 banal,"salet, daily, labor, banal",4
 banjo,"salet, march, daddy, wagon, banjo",5
 barge,"salet, range, barge",3
@@ -184,15 +184,15 @@ belly,"salet, below, belly",3
 below,"salet, below",2
 bench,"salet, price, check, bench",4
 beret,"salet, quiet, comet, greet, beret",5
-berry,"salet, price, every, ferry, kerry, jerry, berry",7
+berry,"salet, price, every, ferry, berry",5
 berth,"salet, their, berth",3
 beset,"salet, reset, beset",3
-betel,"salet, hotel, intel, betel",4
+betel,"salet, hotel, betel",3
 bevel,"salet, level, bevel",3
 bezel,"salet, level, rebel, bezel",4
 bible,"salet, while, bible",3
 bicep,"salet, woven, chief, bicep",4
-biddy,"salet, which, minor, vivid, dizzy, giddy, kiddy, biddy",8
+biddy,"salet, which, minor, vivid, dizzy, giddy, biddy",7
 bigot,"salet, right, digit, bigot",4
 bilge,"salet, below, bulge, bilge",4
 billy,"salet, color, fully, billy",4
@@ -202,7 +202,7 @@ biome,"salet, price, movie, biome",4
 birch,"salet, which, birch",3
 birth,"salet, photo, birth",3
 bison,"salet, music, risky, bison",4
-bitty,"salet, photo, dirty, fifty, kitty, witty, titty, bitty",8
+bitty,"salet, photo, dirty, fifty, kitty, witty, bitty",7
 black,"salet, local, black",3
 blade,"salet, email, place, blade",4
 blame,"salet, email, flame, blame",4
@@ -238,8 +238,8 @@ blush,"salet, flush, plush, blush",4
 board,"salet, board",2
 boast,"salet, coast, toast, roast, boast",5
 bobby,"salet, which, group, bobby",4
-boney,"salet, woven, money, honey, coney, boney",6
-bongo,"salet, which, group, doggy, bongo",5
+boney,"salet, woven, money, honey, boney",5
+bongo,"salet, which, group, bongo",4
 bonus,"salet, music, bonus",3
 booby,"salet, which, group, moody, booby",5
 boost,"salet, first, ghost, boost",4
@@ -253,7 +253,7 @@ bosom,"salet, music, bosom",3
 bossy,"salet, music, bossy",3
 botch,"salet, photo, touch, notch, botch",5
 bough,"salet, which, rough, dough, bough",5
-boule,"salet, while, cycle, noble, bogle, boule",6
+boule,"salet, while, cycle, noble, boule",5
 bound,"salet, which, group, found, bound",5
 bowel,"salet, level, model, bowel",4
 boxer,"salet, woven, poker, roger, homer, boxer",6
@@ -306,7 +306,7 @@ bunny,"salet, which, group, funny, bunny",5
 burly,"salet, would, curly, burly",4
 burnt,"salet, right, court, burnt",4
 burst,"salet, first, worst, burst",4
-bused,"salet, zones, usher, fused, mused, bused",6
+bused,"salet, usher, bused",3
 bushy,"salet, music, husky, bushy",4
 butch,"salet, photo, dutch, hutch, butch",5
 butte,"salet, their, quote, butte",4
@@ -337,14 +337,14 @@ carat,"salet, paint, yacht, carat",4
 cargo,"salet, march, carry, cargo",4
 carol,"salet, daily, labor, carol",4
 carry,"salet, march, carry",3
-carve,"salet, range, zaire, carve",4
+carve,"salet, range, carve",3
 caste,"salet, waste, taste, paste, caste",5
 catch,"salet, party, watch, match, catch",5
 cater,"salet, water, cater",3
-catty,"salet, party, fatty, batty, natty, tatty, catty",7
+catty,"salet, party, fatty, batty, tatty, catty",6
 caulk,"salet, daily, caulk",3
 cause,"salet, cause",2
-cavil,"salet, daily, vakil, cavil",4
+cavil,"salet, daily, cavil",3
 cease,"salet, phase, cease",3
 cedar,"salet, media, cedar",3
 cello,"salet, below, hello, cello",4
@@ -369,7 +369,7 @@ cheer,"salet, woven, chief, cheer",4
 chess,"salet, house, fresh, chess",4
 chest,"salet, guest, chest",3
 chick,"salet, which, chick",3
-chide,"salet, price, chime, chine, chive, chide",6
+chide,"salet, price, chime, chide",4
 chief,"salet, woven, chief",3
 child,"salet, would, child",3
 chili,"salet, would, grill, chili",4
@@ -397,7 +397,7 @@ civil,"salet, would, click, civil",4
 clack,"salet, local, black, flack, clack",5
 claim,"salet, local, black, claim",4
 clamp,"salet, local, black, claim, clamp",5
-clang,"salet, local, black, claim, clary, clang",6
+clang,"salet, local, black, claim, clang",5
 clank,"salet, local, black, clank",4
 clash,"salet, class, clash",3
 clasp,"salet, class, clash, clasp",4
@@ -422,7 +422,7 @@ clout,"salet, light, blunt, clout",4
 clove,"salet, while, lodge, clone, clove",5
 clown,"salet, would, blown, clown",4
 cluck,"salet, would, bluff, plump, clung, cluck",6
-clued,"salet, level, older, bleed, glued, clued",6
+clued,"salet, level, older, bleed, plied, clued",6
 clump,"salet, would, bluff, plump, clump",5
 clung,"salet, would, bluff, plump, clung",5
 coach,"salet, board, coach",3
@@ -440,8 +440,8 @@ condo,"salet, which, occur, condo",4
 conic,"salet, which, micro, ionic, conic",5
 copse,"salet, house, noise, worse, goose, posse, copse",7
 coral,"salet, local, coral",3
-corer,"salet, woven, poker, roger, homer, boxer, foyer, dozer, corer",9
-corny,"salet, which, occur, crook, corby, corny",6
+corer,"salet, woven, poker, roger, homer, boxer, foyer, corer",8
+corny,"salet, which, occur, crook, corny",5
 couch,"salet, which, bunch, couch",4
 cough,"salet, which, cough",3
 could,"salet, would, could",3
@@ -452,7 +452,7 @@ coven,"salet, woven, coven",3
 cover,"salet, woven, cover",3
 covet,"salet, quiet, comet, covet",4
 covey,"salet, woven, cover, covey",4
-cower,"salet, woven, power, mower, bower, rower, dower, cower",8
+cower,"salet, woven, power, mower, rower, cower",6
 coyly,"salet, would, nobly, coyly",4
 crack,"salet, board, chair, crazy, crack",5
 craft,"salet, about, grant, draft, craft",5
@@ -484,8 +484,8 @@ crime,"salet, price, crime",3
 crimp,"salet, which, icing, crimp",4
 crisp,"salet, music, crisp",3
 croak,"salet, board, arrow, organ, croak",5
-crock,"salet, which, knock, brock, crock",5
-crone,"salet, price, crude, creme, crore, crone",6
+crock,"salet, which, knock, crock",4
+crone,"salet, price, crude, creme, crone",5
 crony,"salet, which, occur, crook, crony",5
 crook,"salet, which, occur, crook",4
 cross,"salet, music, cross",3
@@ -515,14 +515,14 @@ daddy,"salet, march, daddy",3
 daily,"salet, daily",2
 dairy,"salet, march, radio, dairy",4
 daisy,"salet, basic, daisy",3
-dally,"salet, valid, waldo, dally",4
+dally,"salet, valid, dally",3
 dance,"salet, range, dance",3
 dandy,"salet, march, daddy, dandy",4
 datum,"salet, party, watch, baton, datum",5
 daunt,"salet, paint, haunt, gaunt, taunt, jaunt, daunt",7
 dealt,"salet, alert, dealt",3
 death,"salet, trade, death",3
-debar,"salet, media, ready, dewar, denar, debar",6
+debar,"salet, media, ready, debar",4
 debit,"salet, event, depot, debut, debit",5
 debug,"salet, price, enjoy, debug",4
 debut,"salet, event, depot, debut",4
@@ -537,21 +537,21 @@ deity,"salet, their, quite, deity",4
 delay,"salet, delay",2
 delta,"salet, delta",2
 delve,"salet, below, jelly, helix, delve",5
-demon,"salet, price, enjoy, devon, demon",5
-demur,"salet, price, every, xerox, femur, demur",6
+demon,"salet, price, enjoy, demon",4
+demur,"salet, price, every, heron, femur, demur",6
 denim,"salet, price, begin, denim",4
 dense,"salet, house, verse, dense",4
 depot,"salet, event, depot",3
 depth,"salet, their, depth",3
 derby,"salet, price, every, derby",4
-deter,"salet, other, enter, meter, peter, deter",6
+deter,"salet, other, enter, meter, deter",5
 detox,"salet, their, quote, detox",4
 deuce,"salet, price, hence, deuce",4
 devil,"salet, while, devil",3
 diary,"salet, board, diary",3
 dicey,"salet, woven, chief, bicep, dicey",5
 digit,"salet, right, digit",3
-dilly,"salet, color, fully, billy, willy, hilly, gilly, dilly",8
+dilly,"salet, color, fully, billy, willy, hilly, dilly",7
 dimly,"salet, would, drill, dimly",4
 diner,"salet, woven, under, diner",4
 dingo,"salet, which, minor, bingo, dingo",5
@@ -566,10 +566,10 @@ ditty,"salet, photo, dirty, ditty",4
 diver,"salet, woven, river, diver",4
 dizzy,"salet, which, minor, vivid, dizzy",5
 dodge,"salet, price, judge, dodge",4
-dodgy,"salet, which, group, doggy, dodgy",5
-dogma,"salet, board, honda, vodka, dogma",5
+dodgy,"salet, which, group, bongo, foggy, dodgy",6
+dogma,"salet, board, vodka, dogma",4
 doing,"salet, which, going, doing",4
-dolly,"salet, color, holly, molly, jolly, polly, dolly",7
+dolly,"salet, color, holly, jolly, dolly",5
 donor,"salet, which, group, donor",4
 donut,"salet, right, count, donut",4
 dopey,"salet, woven, poker, dopey",4
@@ -612,10 +612,10 @@ dryly,"salet, would, drill, dryly",4
 duchy,"salet, which, duchy",3
 dully,"salet, color, fully, bully, gully, dully",6
 dummy,"salet, which, group, funny, buddy, dummy",6
-dumpy,"salet, which, group, puppy, bumpy, jumpy, dumpy",7
-dunce,"salet, price, hence, ounce, bunce, dunce",6
+dumpy,"salet, which, group, puppy, jumpy, dumpy",6
+dunce,"salet, price, hence, ounce, dunce",5
 dusky,"salet, music, husky, dusky",4
-dusty,"salet, rusty, busty, dusty",4
+dusty,"salet, rusty, dusty",3
 dutch,"salet, photo, dutch",3
 duvet,"salet, quiet, duvet",3
 dwarf,"salet, board, diary, dwarf",4
@@ -627,7 +627,7 @@ eagle,"salet, large, eagle",3
 early,"salet, large, early",3
 earth,"salet, earth",2
 easel,"salet, easel",2
-eaten,"salet, water, dated, eaten",4
+eaten,"salet, water, eaten",3
 eater,"salet, water, cater, eater",4
 ebony,"salet, price, enjoy, ebony",4
 eclat,"salet, eclat",2
@@ -643,7 +643,7 @@ elbow,"salet, while, elbow",3
 elder,"salet, level, older, elder",4
 elect,"salet, elect",2
 elegy,"salet, while, clerk, blend, elegy",5
-elfin,"salet, while, devil, oleic, elfin",5
+elfin,"salet, while, devil, elfin",4
 elide,"salet, while, olive, glide, elide",5
 elite,"salet, title, elite",3
 elope,"salet, while, lodge, clone, bloke, elope",6
@@ -702,7 +702,7 @@ faith,"salet, party, faith",3
 false,"salet, false",2
 fancy,"salet, march, fancy",3
 fanny,"salet, march, daddy, nanny, fanny",5
-farce,"salet, range, zaire, carve, farce",5
+farce,"salet, range, carve, farce",4
 fatal,"salet, fatal",2
 fatty,"salet, party, fatty",3
 fault,"salet, fault",2
@@ -714,7 +714,7 @@ feign,"salet, price, being, neigh, feign",5
 fella,"salet, delay, fella",3
 felon,"salet, below, melon, felon",4
 femme,"salet, price, judge, ozone, femme",5
-femur,"salet, price, every, xerox, femur",5
+femur,"salet, price, every, heron, femur",5
 fence,"salet, price, hence, fence",4
 feral,"salet, email, legal, renal, feral",5
 ferry,"salet, price, every, ferry",4
@@ -776,7 +776,7 @@ flown,"salet, would, blown, clown, flown",5
 fluff,"salet, would, bluff, fluff",4
 fluid,"salet, would, fluid",3
 fluke,"salet, while, lodge, plume, fluke",5
-flume,"salet, while, lodge, plume, blume, flume",6
+flume,"salet, while, lodge, plume, flume",5
 flung,"salet, would, bluff, flung",4
 flunk,"salet, would, bluff, flung, flunk",5
 flush,"salet, flush",2
@@ -785,11 +785,11 @@ flyer,"salet, level, older, flyer",4
 foamy,"salet, board, coach, foamy",4
 focal,"salet, local, vocal, focal",4
 focus,"salet, music, focus",3
-foggy,"salet, which, group, doggy, foggy",5
+foggy,"salet, which, group, bongo, foggy",5
 foist,"salet, first, foist",3
 folio,"salet, color, holly, folio",4
-folly,"salet, color, holly, molly, jolly, polly, dolly, folly",8
-foray,"salet, board, roman, foray",4
+folly,"salet, color, holly, jolly, dolly, folly",6
+foray,"salet, board, foray",3
 force,"salet, price, force",3
 forge,"salet, price, where, nerve, forge",5
 forgo,"salet, which, group, forgo",4
@@ -805,14 +805,14 @@ frank,"salet, board, chair, frank",4
 fraud,"salet, board, grand, fraud",4
 freak,"salet, media, above, cheap, freak",5
 freed,"salet, woven, chief, refer, freed",5
-freer,"salet, woven, chief, refer, fryer, freer",6
+freer,"salet, woven, chief, refer, freer",5
 fresh,"salet, house, fresh",3
 friar,"salet, board, array, friar",4
 fried,"salet, woven, chief, fried",4
-frill,"salet, would, grill, brill, krill, frill",6
+frill,"salet, would, grill, krill, frill",5
 frisk,"salet, music, noisy, brisk, frisk",5
 fritz,"salet, photo, dirty, fritz",4
-frock,"salet, which, knock, brock, crock, frock",6
+frock,"salet, which, knock, crock, frock",5
 frond,"salet, which, group, brook, frond",5
 front,"salet, right, court, front",4
 frost,"salet, first, frost",3
@@ -828,19 +828,19 @@ funky,"salet, which, group, funny, funky",5
 funny,"salet, which, group, funny",4
 furor,"salet, which, group, round, juror, furor",6
 furry,"salet, which, group, furry",4
-fussy,"salet, music, husky, pussy, fussy",5
+fussy,"salet, music, husky, fussy",4
 fuzzy,"salet, which, group, funny, fuzzy",5
 gaffe,"salet, range, vague, gaffe",4
 gaily,"salet, daily, gaily",3
 gamer,"salet, paper, maker, gamer",4
 gamma,"salet, march, gamma",3
 gamut,"salet, paint, yacht, tarot, gamut",5
-gassy,"salet, basic, mason, raspy, washy, gassy",6
+gassy,"salet, basic, mason, raspy, gassy",5
 gaudy,"salet, march, daddy, gaudy",4
 gauge,"salet, range, gauge",3
 gaunt,"salet, paint, haunt, gaunt",4
 gauze,"salet, range, vague, gauze",4
-gavel,"salet, panel, label, camel, hazel, ravel, gavel",7
+gavel,"salet, panel, label, camel, hazel, gavel",6
 gawky,"salet, march, daddy, nanny, jazzy, baggy, gawky",7
 gayer,"salet, paper, maker, eager, gazer, gayer",6
 gayly,"salet, daily, manly, gayly",4
@@ -864,7 +864,7 @@ gland,"salet, local, album, plain, gland",5
 glare,"salet, email, place, blade, flare, glare",6
 glass,"salet, class, glass",3
 glaze,"salet, email, place, blade, flare, glaze",6
-gleam,"salet, email, lemma, gleam",4
+gleam,"salet, email, gleam",3
 glean,"salet, email, clear, plead, bleak, glean",6
 glide,"salet, while, olive, glide",4
 glint,"salet, light, guilt, glint",4
@@ -880,9 +880,9 @@ gnome,"salet, price, judge, gnome",4
 godly,"salet, would, godly",3
 going,"salet, which, going",3
 golem,"salet, ruler, melee, golem",4
-golly,"salet, color, holly, molly, jolly, polly, dolly, folly, golly",9
+golly,"salet, color, holly, jolly, dolly, folly, golly",7
 gonad,"salet, board, nomad, gonad",4
-goner,"salet, woven, money, zoned, goner",5
+goner,"salet, woven, money, goner",4
 goody,"salet, which, group, goofy, goody",5
 gooey,"salet, woven, poker, modem, gooey",5
 goofy,"salet, which, group, goofy",4
@@ -943,15 +943,15 @@ gumbo,"salet, which, group, gumbo",4
 gummy,"salet, which, group, gummy",4
 guppy,"salet, which, group, guppy",4
 gusto,"salet, rusty, gusto",3
-gusty,"salet, rusty, busty, dusty, musty, gusty",6
+gusty,"salet, rusty, dusty, musty, gusty",5
 gypsy,"salet, music, gross, gypsy",4
 habit,"salet, paint, habit",3
 hairy,"salet, march, hairy",3
 halve,"salet, value, halve",3
-handy,"salet, march, yahoo, happy, handy",5
-happy,"salet, march, yahoo, happy",4
+handy,"salet, march, happy, handy",4
+happy,"salet, march, happy",3
 hardy,"salet, march, harry, hardy",4
-harem,"salet, paper, raven, warez, harem",5
+harem,"salet, paper, raven, harem",4
 harpy,"salet, march, harry, hardy, harpy",5
 harry,"salet, march, harry",3
 harsh,"salet, basic, marsh, harsh",4
@@ -976,7 +976,7 @@ heist,"salet, guest, exist, heist",4
 helix,"salet, below, jelly, helix",4
 hello,"salet, below, hello",3
 hence,"salet, price, hence",3
-heron,"salet, price, every, xerox, heron",5
+heron,"salet, price, every, heron",4
 hilly,"salet, color, fully, billy, willy, hilly",6
 hinge,"salet, price, movie, hinge",4
 hippo,"salet, which, hippo",3
@@ -993,11 +993,11 @@ horde,"salet, price, where, horde",4
 horny,"salet, which, humor, horny",4
 horse,"salet, house, horse",3
 hotel,"salet, hotel",2
-hotly,"salet, until, lotto, hotly",4
+hotly,"salet, until, hotly",3
 hound,"salet, which, humor, hound",4
 house,"salet, house",2
 hovel,"salet, level, novel, hovel",4
-hover,"salet, woven, cover, rover, dover, mover, hover",7
+hover,"salet, woven, cover, rover, mover, hover",6
 howdy,"salet, which, howdy",3
 human,"salet, board, human",3
 humid,"salet, which, hippo, humid",4
@@ -1024,7 +1024,7 @@ idyll,"salet, would, drill, idyll",4
 igloo,"salet, color, nylon, igloo",4
 iliac,"salet, local, iliac",3
 image,"salet, media, image",3
-imbue,"salet, price, movie, gimme, imbue",5
+imbue,"salet, price, movie, imbue",4
 impel,"salet, level, model, impel",4
 imply,"salet, would, grill, imply",4
 inane,"salet, media, inane",3
@@ -1058,13 +1058,13 @@ jiffy,"salet, which, minor, vivid, piggy, jiffy",6
 joint,"salet, right, point, joint",4
 joist,"salet, first, twist, moist, hoist, joist",6
 joker,"salet, woven, poker, joker",4
-jolly,"salet, color, holly, molly, jolly",5
+jolly,"salet, color, holly, jolly",4
 joust,"salet, first, ghost, joust",4
 judge,"salet, price, judge",3
 juice,"salet, price, voice, juice",4
 juicy,"salet, which, quick, juicy",4
 jumbo,"salet, which, group, found, jumbo",5
-jumpy,"salet, which, group, puppy, bumpy, jumpy",6
+jumpy,"salet, which, group, puppy, jumpy",5
 junta,"salet, today, attic, wrath, junta",5
 junto,"salet, photo, motto, junto",4
 juror,"salet, which, group, round, juror",5
@@ -1087,7 +1087,7 @@ knock,"salet, which, knock",3
 knoll,"salet, would, knoll",3
 known,"salet, which, known",3
 koala,"salet, local, koala",3
-krill,"salet, would, grill, brill, krill",5
+krill,"salet, would, grill, krill",4
 label,"salet, panel, label",3
 labor,"salet, daily, labor",3
 laden,"salet, panel, laden",3
@@ -1098,7 +1098,7 @@ lanky,"salet, daily, lanky",3
 lapel,"salet, panel, lapel",3
 lapse,"salet, lapse",2
 large,"salet, large",2
-larva,"salet, daily, labor, laura, larva",5
+larva,"salet, daily, labor, larva",4
 lasso,"salet, basil, lasso",3
 latch,"salet, fatal, latch",3
 later,"salet, later",2
@@ -1119,7 +1119,7 @@ leave,"salet, email, place, leave",4
 ledge,"salet, while, lodge, ledge",4
 leech,"salet, while, leech",3
 leery,"salet, while, clerk, leery",4
-lefty,"salet, title, ethyl, lefty",4
+lefty,"salet, title, lefty",3
 legal,"salet, email, legal",3
 leggy,"salet, while, clerk, lemon, leggy",5
 lemon,"salet, while, clerk, lemon",4
@@ -1138,8 +1138,8 @@ linen,"salet, level, lower, linen",4
 liner,"salet, level, lower, liner",4
 lingo,"salet, would, floor, lingo",4
 lipid,"salet, would, blind, lipid",4
-lithe,"salet, title, litre, lithe",4
-liver,"salet, level, loved, liver",4
+lithe,"salet, title, lithe",3
+liver,"salet, level, liver",3
 livid,"salet, would, blind, lipid, livid",5
 llama,"salet, local, llama",3
 loamy,"salet, local, loamy",3
@@ -1157,7 +1157,7 @@ lorry,"salet, would, login, lobby, lorry",5
 loser,"salet, loser",2
 louse,"salet, close, louse",3
 lousy,"salet, flush, lousy",3
-lover,"salet, level, loved, lover",4
+lover,"salet, level, liver, lover",4
 lower,"salet, level, lower",3
 lowly,"salet, would, lowly",3
 loyal,"salet, local, loyal",3
@@ -1167,16 +1167,16 @@ lumen,"salet, level, lower, linen, lumen",5
 lumpy,"salet, would, lunch, lumpy",4
 lunar,"salet, local, lunar",3
 lunch,"salet, would, lunch",3
-lunge,"salet, while, lodge, legge, lunge",5
+lunge,"salet, while, lodge, lunge",4
 lupus,"salet, flush, locus, lupus",4
 lurch,"salet, would, lunch, lurch",4
 lurid,"salet, would, lucid, lurid",4
-lusty,"salet, tools, lusty",3
+lusty,"salet, lusty",2
 lying,"salet, would, click, lying",4
 lymph,"salet, would, click, lymph",4
 lynch,"salet, would, click, lynch",4
 lyric,"salet, would, click, lyric",4
-macaw,"salet, march, magic, macon, macaw",5
+macaw,"salet, march, magic, macaw",4
 macho,"salet, march, macho",3
 macro,"salet, march, macro",3
 madam,"salet, march, manga, mambo, maxim, madam",6
@@ -1203,9 +1203,9 @@ march,"salet, march",2
 marry,"salet, march, marry",3
 marsh,"salet, basic, marsh",3
 mason,"salet, basic, mason",3
-masse,"salet, cause, raise, passe, masse",5
+masse,"salet, cause, raise, masse",4
 match,"salet, party, watch, match",4
-matey,"salet, water, dated, eaten, matey",5
+matey,"salet, water, eaten, matey",4
 mauve,"salet, range, maybe, maize, mauve",5
 maxim,"salet, march, manga, mambo, maxim",5
 maybe,"salet, range, maybe",3
@@ -1222,7 +1222,7 @@ melon,"salet, below, melon",3
 mercy,"salet, price, mercy",3
 merge,"salet, price, where, nerve, merge",5
 merit,"salet, event, depot, merit",4
-merry,"salet, price, every, ferry, kerry, jerry, berry, merry",8
+merry,"salet, price, every, ferry, berry, merry",6
 metal,"salet, metal",2
 meter,"salet, other, enter, meter",4
 metro,"salet, their, entry, metro",4
@@ -1239,7 +1239,7 @@ minor,"salet, which, minor",3
 minty,"salet, photo, dirty, fifty, kitty, minty",6
 minus,"salet, music, minus",3
 mirth,"salet, photo, birth, girth, mirth",5
-miser,"salet, zones, usher, riser, wiser, miser",6
+miser,"salet, usher, poser, riser, wiser, miser",6
 missy,"salet, music, missy",3
 mocha,"salet, board, woman, mocha",4
 modal,"salet, local, royal, modal",4
@@ -1267,10 +1267,10 @@ mount,"salet, right, count, mount",4
 mourn,"salet, which, group, round, mourn",5
 mouse,"salet, house, mouse",3
 mouth,"salet, photo, north, youth, mouth",5
-mover,"salet, woven, cover, rover, dover, mover",6
+mover,"salet, woven, cover, rover, mover",5
 movie,"salet, price, movie",3
 mower,"salet, woven, power, mower",4
-mucky,"salet, which, occur, yucky, mucky",5
+mucky,"salet, which, occur, mucky",4
 mucus,"salet, music, mucus",3
 muddy,"salet, which, group, funny, buddy, muddy",6
 mulch,"salet, color, mulch",3
@@ -1281,7 +1281,7 @@ murky,"salet, which, group, furry, murky",5
 mushy,"salet, music, mushy",3
 music,"salet, music",2
 musky,"salet, music, mushy, musky",4
-musty,"salet, rusty, busty, dusty, musty",5
+musty,"salet, rusty, dusty, musty",4
 myrrh,"salet, which, rough, myrrh",4
 nadir,"salet, march, radio, nadir",4
 naive,"salet, range, naive",3
@@ -1312,7 +1312,7 @@ noisy,"salet, music, noisy",3
 nomad,"salet, board, nomad",3
 noose,"salet, house, noise, noose",4
 north,"salet, photo, north",3
-nosey,"salet, zones, nosey",3
+nosey,"salet, usher, nosey",3
 notch,"salet, photo, touch, notch",4
 novel,"salet, level, novel",3
 nudge,"salet, price, judge, fudge, nudge",5
@@ -1320,7 +1320,7 @@ nurse,"salet, house, nurse",3
 nutty,"salet, photo, dirty, nutty",4
 nylon,"salet, color, nylon",3
 nymph,"salet, which, rough, nymph",4
-oaken,"salet, paper, haven, zazen, oaken",5
+oaken,"salet, paper, haven, oaken",4
 obese,"salet, house, prose, obese",4
 occur,"salet, which, occur",3
 ocean,"salet, media, above, ocean",4
@@ -1355,7 +1355,7 @@ outgo,"salet, photo, intro, outdo, outgo",5
 ovary,"salet, board, ovary",3
 ovate,"salet, trade, agate, ovate",4
 overt,"salet, event, overt",3
-ovine,"salet, price, guide, knife, whine, ezine, ovine",7
+ovine,"salet, price, guide, knife, whine, ovine",6
 ovoid,"salet, which, minor, ovoid",4
 owing,"salet, which, owing",3
 owner,"salet, woven, owner",3
@@ -1365,7 +1365,7 @@ paddy,"salet, march, daddy, paddy",4
 pagan,"salet, march, daddy, wagon, pagan",5
 paint,"salet, paint",2
 paler,"salet, baler, paler",3
-palsy,"salet, walls, palsy",3
+palsy,"salet, palsy",2
 panel,"salet, panel",2
 panic,"salet, march, canon, panic",4
 pansy,"salet, basic, marsh, pansy",4
@@ -1382,7 +1382,7 @@ pasty,"salet, nasty, tasty, hasty, pasty",5
 patch,"salet, party, patch",3
 patio,"salet, party, patch, patio",4
 patsy,"salet, nasty, patsy",3
-patty,"salet, party, panty, patty",4
+patty,"salet, party, patty",3
 pause,"salet, cause, pause",3
 payee,"salet, paper, payee",3
 payer,"salet, paper, payer",3
@@ -1416,7 +1416,7 @@ pinch,"salet, which, birch, pinch",4
 piney,"salet, woven, under, piney",4
 pinky,"salet, which, minor, kinky, pinky",5
 pinto,"salet, photo, pinto",3
-piper,"salet, woven, chief, rider, mixer, piper",6
+piper,"salet, woven, chief, rider, piper",5
 pique,"salet, price, pixie, pique",4
 pitch,"salet, photo, pitch",3
 pithy,"salet, photo, pitch, pithy",4
@@ -1427,7 +1427,7 @@ pizza,"salet, board, human, pizza",4
 place,"salet, email, place",3
 plaid,"salet, local, album, plain, plaid",5
 plain,"salet, local, album, plain",4
-plait,"salet, adult, plant, platt, plait",5
+plait,"salet, adult, plant, plait",4
 plane,"salet, email, place, plane",4
 plank,"salet, local, album, plain, plank",5
 plant,"salet, adult, plant",3
@@ -1435,7 +1435,7 @@ plate,"salet, metal, plate",3
 plaza,"salet, local, album, plain, plaza",5
 plead,"salet, email, clear, plead",4
 pleat,"salet, alert, cleat, pleat",4
-plied,"salet, level, older, bleed, glued, flied, plied",7
+plied,"salet, level, older, bleed, plied",5
 plier,"salet, level, older, flyer, ulcer, plier",6
 pluck,"salet, would, bluff, plump, pluck",5
 plumb,"salet, would, bluff, plumb",4
@@ -1453,12 +1453,12 @@ polyp,"salet, color, holly, polyp",4
 pooch,"salet, which, bunch, porch, pooch",5
 poppy,"salet, which, group, poppy",4
 porch,"salet, which, bunch, porch",4
-poser,"salet, zones, poser",3
+poser,"salet, usher, poser",3
 posit,"salet, first, posit",3
 posse,"salet, house, noise, worse, goose, posse",6
 pouch,"salet, which, bunch, couch, pouch",5
 pound,"salet, which, group, pound",4
-pouty,"salet, photo, potty, pouty",4
+pouty,"salet, photo, pouty",3
 power,"salet, woven, power",3
 prank,"salet, board, chair, frank, prank",5
 prawn,"salet, board, chair, frank, prawn",5
@@ -1542,7 +1542,7 @@ ranch,"salet, march, ranch",3
 randy,"salet, march, radio, randy",4
 range,"salet, range",2
 rapid,"salet, march, radio, rapid",4
-rarer,"salet, paper, maker, eager, racer, razer, rarer",7
+rarer,"salet, paper, maker, eager, racer, rarer",6
 raspy,"salet, basic, mason, raspy",4
 ratio,"salet, party, ratio",3
 ratty,"salet, party, ratty",3
@@ -1576,7 +1576,7 @@ renew,"salet, woven, newer, renew",4
 repay,"salet, media, beach, vegan, repay",5
 repel,"salet, level, rebel, repel",4
 reply,"salet, while, reply",3
-rerun,"salet, price, every, xerox, rerun",5
+rerun,"salet, price, every, heron, rerun",5
 reset,"salet, reset",2
 resin,"salet, house, resin",3
 retch,"salet, their, berth, retch",4
@@ -1594,10 +1594,10 @@ right,"salet, right",2
 rigid,"salet, which, minor, rigid",4
 rigor,"salet, which, minor, vigor, rigor",5
 rinse,"salet, house, verse, rinse",4
-ripen,"salet, woven, green, rumen, ripen",5
+ripen,"salet, woven, green, ripen",4
 riper,"salet, woven, chief, rider, riper",5
-risen,"salet, zones, risen",3
-riser,"salet, zones, usher, riser",4
+risen,"salet, usher, risen",3
+riser,"salet, usher, poser, riser",4
 risky,"salet, music, risky",3
 rival,"salet, local, final, viral, rival",5
 river,"salet, woven, river",3
@@ -1607,7 +1607,7 @@ roast,"salet, coast, toast, roast",4
 robin,"salet, which, minor, robin",4
 robot,"salet, right, robot",3
 rocky,"salet, which, occur, rocky",4
-rodeo,"salet, woven, poker, romeo, rodeo",5
+rodeo,"salet, woven, poker, rodeo",4
 roger,"salet, woven, poker, roger",4
 rogue,"salet, price, where, nerve, rouge, rogue",6
 roomy,"salet, which, group, roomy",4
@@ -1620,7 +1620,7 @@ rouse,"salet, house, mouse, rouse",4
 route,"salet, their, entry, wrote, route",5
 rover,"salet, woven, cover, rover",4
 rowdy,"salet, which, known, rowdy",4
-rower,"salet, woven, power, mower, bower, rower",6
+rower,"salet, woven, power, mower, rower",5
 royal,"salet, local, royal",3
 ruddy,"salet, which, group, furry, ruddy",5
 ruder,"salet, woven, chief, buyer, queer, purer, ruder",7
@@ -1638,12 +1638,12 @@ salad,"salet, salon, salad",3
 sally,"salet, salon, salad, sally",4
 salon,"salet, salon",2
 salsa,"salet, salon, salad, sally, salsa",5
-salty,"salet, salts, salty",3
+salty,"salet, salty",2
 salve,"salet, salve",2
 salvo,"salet, salon, salvo",3
 sandy,"salet, sandy",2
-saner,"salet, safer, sayer, saner",4
-sappy,"salet, sandy, savvy, sassy, saucy, sammy, saggy, sappy",8
+saner,"salet, safer, saner",3
+sappy,"salet, sandy, savvy, sassy, saucy, sappy",6
 sassy,"salet, sandy, savvy, sassy",4
 satin,"salet, satin",2
 satyr,"salet, satin, satyr",3
@@ -1654,10 +1654,10 @@ saute,"salet, saute",2
 savor,"salet, sandy, savor",3
 savoy,"salet, sandy, savvy, savoy",4
 savvy,"salet, sandy, savvy",3
-scald,"salet, small, scalp, scala, scaly, scald",6
+scald,"salet, small, scalp, scaly, scald",5
 scale,"salet, scale",2
 scalp,"salet, small, scalp",3
-scaly,"salet, small, scalp, scala, scaly",5
+scaly,"salet, small, scalp, scaly",4
 scamp,"salet, sharp, swamp, scamp",4
 scant,"salet, start, shaft, scant",4
 scare,"salet, space, scare",3
@@ -1685,7 +1685,7 @@ scrum,"salet, sound, sushi, syrup, scrub, scrum",6
 scuba,"salet, sharp, sigma, scuba",4
 sedan,"salet, space, sedan",3
 seedy,"salet, since, sperm, seedy",4
-segue,"salet, since, serve, sedge, segue",5
+segue,"salet, since, serve, segue",4
 seize,"salet, since, spike, shire, seize",5
 semen,"salet, speed, seven, semen",4
 sense,"salet, since, sense",3
@@ -1697,17 +1697,17 @@ setup,"salet, store, setup",3
 seven,"salet, speed, seven",3
 sever,"salet, speed, seven, sever",4
 sewer,"salet, speed, seven, sewer",4
-shack,"salet, sharp, shawn, shack",4
+shack,"salet, sharp, shack",3
 shade,"salet, space, share, shade",4
-shady,"salet, sharp, shawn, shack, shady",5
+shady,"salet, sharp, shack, shady",4
 shaft,"salet, start, shaft",3
 shake,"salet, space, share, shade, shake",5
-shaky,"salet, sharp, shawn, shack, shaky",5
+shaky,"salet, sharp, shack, shaky",4
 shale,"salet, scale, shale",3
 shall,"salet, small, shall",3
 shalt,"salet, shalt",2
 shame,"salet, space, share, shade, shake, shame",6
-shank,"salet, sharp, shawn, shank",4
+shank,"salet, sharp, shack, shank",4
 shape,"salet, space, shape",3
 shard,"salet, sharp, shark, shard",4
 share,"salet, space, share",3
@@ -1726,9 +1726,9 @@ shell,"salet, slide, shell",3
 shied,"salet, speed, shied",3
 shift,"salet, short, shift",3
 shine,"salet, since, shine",3
-shiny,"salet, sound, signs, shiny",4
+shiny,"salet, sound, swing, shiny",4
 shire,"salet, since, spike, shire",4
-shirk,"salet, sound, spicy, swiss, smirk, shirk",6
+shirk,"salet, sound, spicy, swish, shirk",5
 shirt,"salet, short, shirt",3
 shoal,"salet, small, shoal",3
 shock,"salet, sound, shock",3
@@ -1741,13 +1741,13 @@ short,"salet, short",2
 shout,"salet, short, shoot, shout",4
 shove,"salet, since, serve, shove",4
 shown,"salet, sound, shown",3
-showy,"salet, sound, shock, shows, showy",5
+showy,"salet, sound, shock, showy",4
 shrew,"salet, speed, seven, screw, shrew",5
 shrub,"salet, sound, sushi, shrub",4
 shrug,"salet, sound, sushi, shrub, shrug",5
-shuck,"salet, sound, spurs, shuck",4
+shuck,"salet, sound, shuck",3
 shunt,"salet, short, shift, shunt",4
-shush,"salet, sound, spurs, shuck, shush",5
+shush,"salet, sound, shuck, shush",4
 shyly,"salet, skill, surly, shyly",4
 siege,"salet, since, siege",3
 sieve,"salet, since, siege, sieve",4
@@ -1764,9 +1764,9 @@ sixth,"salet, south, smith, sixth",4
 sixty,"salet, south, sixty",3
 skate,"salet, state, skate",3
 skier,"salet, speed, seven, screw, sober, skier",6
-skiff,"salet, sound, spicy, swiss, smirk, skiff",6
+skiff,"salet, sound, spicy, swish, smirk, skiff",6
 skill,"salet, skill",2
-skimp,"salet, sound, spicy, ships, skimp",5
+skimp,"salet, sound, spicy, skimp",4
 skirt,"salet, short, skirt",3
 skulk,"salet, skill, skulk",3
 skull,"salet, skill, skull",3
@@ -1791,8 +1791,8 @@ sling,"salet, skill, sling",3
 slink,"salet, skill, slick, slink",4
 sloop,"salet, skill, slump, sloop",4
 slope,"salet, slide, slope",3
-slosh,"salet, skill, slump, slows, slosh",5
-sloth,"salet, still, slots, sloth",4
+slosh,"salet, skill, slump, slosh",4
+sloth,"salet, still, sloth",3
 slump,"salet, skill, slump",3
 slung,"salet, skill, slump, slush, slung",5
 slunk,"salet, skill, slunk",3
@@ -1807,7 +1807,7 @@ smear,"salet, space, sedan, swear, shear, smear",6
 smell,"salet, slide, shell, spell, smell",5
 smelt,"salet, slept, smelt",3
 smile,"salet, slide, smile",3
-smirk,"salet, sound, spicy, swiss, smirk",5
+smirk,"salet, sound, spicy, swish, smirk",5
 smite,"salet, store, suite, spite, smite",5
 smith,"salet, south, smith",3
 smock,"salet, sound, shock, smock",4
@@ -1832,7 +1832,7 @@ snout,"salet, short, scout, stout, spout, snout",6
 snowy,"salet, sound, shown, snowy",4
 snuck,"salet, sound, snuff, snuck",4
 snuff,"salet, sound, snuff",3
-soapy,"salet, sharp, spank, soaps, soapy",5
+soapy,"salet, sharp, spank, soapy",4
 sober,"salet, speed, seven, screw, sober",5
 soggy,"salet, sound, sorry, soggy",4
 solar,"salet, solar",2
@@ -1841,7 +1841,7 @@ solve,"salet, solve",2
 sonar,"salet, sharp, sugar, sonar",4
 sonic,"salet, sound, sonic",3
 sooth,"salet, south, sooth",3
-sooty,"salet, south, sorts, sooty",4
+sooty,"salet, south, sooty",3
 sorry,"salet, sound, sorry",3
 sound,"salet, sound",2
 south,"salet, south",2
@@ -1852,10 +1852,10 @@ spank,"salet, sharp, spank",3
 spare,"salet, space, spare",3
 spark,"salet, sharp, spark",3
 spasm,"salet, sharp, spank, spasm",4
-spawn,"salet, sharp, spank, spain, spawn",5
+spawn,"salet, sharp, spank, spawn",4
 speak,"salet, space, speak",3
 spear,"salet, space, speak, spear",4
-speck,"salet, since, specs, speck",4
+speck,"salet, since, speck",3
 speed,"salet, speed",2
 spell,"salet, slide, shell, spell",4
 spelt,"salet, slept, spelt",3
@@ -1871,7 +1871,7 @@ spiky,"salet, sound, spicy, spiky",4
 spill,"salet, skill, spill",3
 spilt,"salet, spilt",2
 spine,"salet, since, shine, spine",4
-spiny,"salet, sound, signs, shiny, spiny",5
+spiny,"salet, sound, swing, shiny, spiny",5
 spire,"salet, since, spike, spire",4
 spite,"salet, store, suite, spite",4
 splat,"salet, splat",2
@@ -1893,24 +1893,24 @@ spurn,"salet, sound, snuff, spurn",4
 spurt,"salet, short, skirt, spurt",4
 squad,"salet, sharp, sigma, squad",4
 squat,"salet, start, squat",3
-squib,"salet, sound, spurs, shuck, squib",5
+squib,"salet, sound, shuck, squib",4
 stack,"salet, staff, stand, stack",4
 staff,"salet, staff",2
 stage,"salet, state, stage",3
 staid,"salet, staff, stand, staid",4
 stain,"salet, staff, stand, stain",4
-stair,"salet, staff, stand, stack, stamp, stays, starr, stair",8
+stair,"salet, staff, stand, stack, stamp, stair",6
 stake,"salet, state, stage, stake",4
 stale,"salet, steal, stale",3
 stalk,"salet, stall, stalk",3
 stall,"salet, stall",2
 stamp,"salet, staff, stand, stack, stamp",5
 stand,"salet, staff, stand",3
-stank,"salet, staff, stand, stang, stank",5
+stank,"salet, staff, stand, stank",4
 stare,"salet, state, stage, stake, stare",5
 stark,"salet, staff, stand, stack, stark",5
 start,"salet, start",2
-stash,"salet, staff, stand, stack, stamp, stays, starr, stash",8
+stash,"salet, staff, stand, stack, stamp, stair, stash",7
 state,"salet, state",2
 stave,"salet, state, stage, stake, stare, stave",6
 stead,"salet, state, steam, steak, stead",5
@@ -1955,7 +1955,7 @@ stuck,"salet, south, study, stuff, stuck",5
 study,"salet, south, study",3
 stuff,"salet, south, study, stuff",4
 stump,"salet, south, study, stuff, stuck, stump",6
-stung,"salet, south, study, stuff, stuck, stump, stubs, stung",8
+stung,"salet, south, study, stuff, stuck, stump, stung",7
 stunk,"salet, south, study, stuff, stuck, stunk",6
 stunt,"salet, short, swift, stunt",4
 style,"salet, style",2
@@ -1968,7 +1968,7 @@ sully,"salet, solid, sully",3
 sumac,"salet, sharp, sigma, sumac",4
 sunny,"salet, sound, sunny",3
 super,"salet, speed, super",3
-surer,"salet, speed, seven, screw, sores, surer",6
+surer,"salet, speed, seven, screw, surer",5
 surge,"salet, since, serve, surge",4
 surly,"salet, skill, surly",3
 sushi,"salet, sound, sushi",3
@@ -1984,11 +1984,11 @@ sweet,"salet, sheet, sweet",3
 swell,"salet, slide, shell, spell, smell, swell",6
 swept,"salet, spent, swept",3
 swift,"salet, short, swift",3
-swill,"salet, skill, spill, shill, swill",5
+swill,"salet, skill, spill, swill",4
 swine,"salet, since, shine, spine, swine",5
-swing,"salet, sound, signs, swing",4
+swing,"salet, sound, swing",3
 swirl,"salet, skill, swirl",3
-swish,"salet, sound, spicy, swiss, swish",5
+swish,"salet, sound, spicy, swish",4
 swoon,"salet, sound, shown, sworn, swoon",5
 swoop,"salet, sound, shock, spoof, swoop",5
 sword,"salet, sound, sword",3
@@ -1997,12 +1997,12 @@ sworn,"salet, sound, shown, sworn",4
 swung,"salet, sound, skunk, swung",4
 synod,"salet, sound, synod",3
 syrup,"salet, sound, sushi, syrup",4
-tabby,"salet, party, tawny, tammy, tacky, tabby",6
+tabby,"salet, party, tawny, tacky, tabby",5
 table,"salet, table",2
 taboo,"salet, party, watch, taboo",4
 tacit,"salet, paint, habit, tacit",4
-tacky,"salet, party, tawny, tammy, tacky",5
-taffy,"salet, party, tawny, tammy, tacky, tabby, taffy",7
+tacky,"salet, party, tawny, tacky",4
+taffy,"salet, party, tawny, tacky, tabby, taffy",6
 taint,"salet, paint, faint, taint",4
 taken,"salet, water, taken",3
 taker,"salet, water, taper, taker",4
@@ -2017,7 +2017,7 @@ tardy,"salet, party, tardy",3
 tarot,"salet, paint, yacht, tarot",4
 taste,"salet, waste, taste",3
 tasty,"salet, nasty, tasty",3
-tatty,"salet, party, fatty, batty, natty, tatty",6
+tatty,"salet, party, fatty, batty, tatty",5
 taunt,"salet, paint, haunt, gaunt, taunt",5
 tawny,"salet, party, tawny",3
 teach,"salet, trade, teach",3
@@ -2034,7 +2034,7 @@ tepee,"salet, other, tweed, tepee",4
 tepid,"salet, their, tepid",3
 terra,"salet, trade, terra",3
 terse,"salet, these, tense, terse",4
-testy,"salet, these, tests, testy",4
+testy,"salet, these, testy",3
 thank,"salet, today, track, thank",4
 theft,"salet, event, theft",3
 their,"salet, their",2
@@ -2074,18 +2074,18 @@ title,"salet, title",2
 toast,"salet, coast, toast",3
 today,"salet, today",2
 toddy,"salet, photo, motor, toxic, toddy",5
-token,"salet, other, voted, token",4
+token,"salet, other, token",3
 tonal,"salet, total, tonal",3
 tonga,"salet, today, tonga",3
 tonic,"salet, photo, motor, toxic, tonic",5
 tooth,"salet, photo, booth, tooth",4
-topaz,"salet, today, torah, topaz",4
+topaz,"salet, today, topaz",3
 topic,"salet, photo, topic",3
 torch,"salet, photo, touch, torch",4
 torso,"salet, rusty, torso",3
 torus,"salet, rusty, truss, torus",4
 total,"salet, total",2
-totem,"salet, other, voted, totem",4
+totem,"salet, other, token, totem",4
 touch,"salet, photo, touch",3
 tough,"salet, photo, touch, tough",4
 towel,"salet, hotel, towel",3
@@ -2108,11 +2108,11 @@ trend,"salet, their, trend",3
 triad,"salet, today, triad",3
 trial,"salet, total, trial",3
 tribe,"salet, their, tribe",3
-trice,"salet, their, tribe, trike, trice",5
+trice,"salet, their, tribe, trice",4
 trick,"salet, photo, truck, trick",4
 tried,"salet, other, tried",3
-tripe,"salet, their, tribe, trike, trice, trine, trite, tripe",8
-trite,"salet, their, tribe, trike, trice, trine, trite",7
+tripe,"salet, their, tribe, trice, trite, tripe",6
+trite,"salet, their, tribe, trice, trite",5
 troll,"salet, until, troll",3
 troop,"salet, photo, troop",3
 trope,"salet, their, truce, trove, trope",5
@@ -2136,13 +2136,13 @@ tumor,"salet, photo, motor, tumor",4
 tunic,"salet, photo, truck, tunic",4
 turbo,"salet, photo, intro, turbo",4
 tutor,"salet, photo, motor, tutor",4
-twang,"salet, today, track, twain, twang",5
+twang,"salet, today, track, twang",4
 tweak,"salet, trade, theta, tweak",4
 tweed,"salet, other, tweed",3
 tweet,"salet, quiet, comet, greet, tweet",5
 twice,"salet, their, twice",3
 twine,"salet, their, twice, twine",4
-twirl,"salet, until, twill, twirl",4
+twirl,"salet, until, twirl",3
 twist,"salet, first, twist",3
 twixt,"salet, right, point, twixt",4
 tying,"salet, photo, truck, tying",4
@@ -2173,10 +2173,10 @@ upset,"salet, reset, upset",3
 urban,"salet, board, urban",3
 urine,"salet, price, drive, urine",4
 usage,"salet, phase, usage",3
-usher,"salet, zones, usher",3
+usher,"salet, usher",2
 using,"salet, music, using",3
 usual,"salet, class, usual",3
-usurp,"salet, music, bonus, usury, usurp",5
+usurp,"salet, music, bonus, usurp",4
 utile,"salet, title, utile",3
 utter,"salet, other, utter",3
 vague,"salet, range, vague",3
@@ -2190,7 +2190,7 @@ vapor,"salet, march, radio, favor, vapor",5
 vault,"salet, fault, vault",3
 vaunt,"salet, paint, haunt, gaunt, taunt, jaunt, daunt, vaunt",8
 vegan,"salet, media, beach, vegan",4
-venom,"salet, price, enjoy, devon, venom",5
+venom,"salet, price, enjoy, demon, venom",5
 venue,"salet, price, judge, venue",4
 verge,"salet, price, where, nerve, verge",5
 verse,"salet, house, verse",3
@@ -2213,7 +2213,7 @@ vital,"salet, total, vital",3
 vivid,"salet, which, minor, vivid",4
 vixen,"salet, woven, vixen",3
 vocal,"salet, local, vocal",3
-vodka,"salet, board, honda, vodka",4
+vodka,"salet, board, vodka",3
 vogue,"salet, price, judge, vogue",4
 voice,"salet, price, voice",3
 voila,"salet, local, koala, voila",4
@@ -2234,7 +2234,7 @@ waste,"salet, waste",2
 watch,"salet, party, watch",3
 water,"salet, water",2
 waver,"salet, paper, maker, eager, racer, wafer, waver",7
-waxen,"salet, paper, haven, zazen, oaken, waxen",6
+waxen,"salet, paper, haven, oaken, waxen",5
 weary,"salet, media, beach, weave, weary",5
 weave,"salet, media, beach, weave",4
 wedge,"salet, price, judge, dodge, hedge, wedge",6
@@ -2273,15 +2273,15 @@ wimpy,"salet, which, widow, wimpy",4
 wince,"salet, price, niece, wince",4
 winch,"salet, which, winch",3
 windy,"salet, which, widow, windy",4
-wiser,"salet, zones, usher, riser, wiser",5
-wispy,"salet, music, risky, fishy, pissy, wispy",6
+wiser,"salet, usher, poser, riser, wiser",5
+wispy,"salet, music, risky, fishy, wispy",5
 witch,"salet, photo, dutch, witch",4
 witty,"salet, photo, dirty, fifty, kitty, witty",6
 woken,"salet, woven, women, woken",4
 woman,"salet, board, woman",3
 women,"salet, woven, women",3
 woody,"salet, which, wrong, woody",4
-wooer,"salet, woven, wowed, woker, wooer",5
+wooer,"salet, woven, woker, wooer",4
 wooly,"salet, would, wooly",3
 woozy,"salet, which, wrong, woody, woozy",5
 wordy,"salet, which, wrong, worry, wordy",5
@@ -2293,7 +2293,7 @@ worth,"salet, photo, north, worth",4
 would,"salet, would",2
 wound,"salet, which, wrong, wound",4
 woven,"salet, woven",2
-wrack,"salet, board, chair, franc, wrack",5
+wrack,"salet, board, chair, wrack",4
 wrath,"salet, today, attic, wrath",4
 wreak,"salet, media, above, cheap, freak, wreak",6
 wreck,"salet, price, wreck",3

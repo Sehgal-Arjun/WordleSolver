@@ -23,14 +23,16 @@ public class Testing {
     public static int wordTracker = 0;
     public static void main(String[] args){
         setVariables();
-        guesses.add(validAnswers[wordTracker]); //"salet"
-        setWordFrequencyList();
-        test();
-        int totalCount = 0;
-        for (int i = 0; i < findAverage.size(); i++){
-            totalCount += findAverage.get(i);
+        for (int i = 0; i < validAnswers.length; i++){
+            guesses.add("salet"); //"salet"
+            setWordFrequencyList();
+            test();
+            int totalCount = 0;
+            for (int j = 0; j < findAverage.size(); j++){
+                totalCount += findAverage.get(j);
+            }
+            sum = totalCount/findAverage.size();
         }
-        sum = totalCount/findAverage.size();
     }
 
     public static void setVariables(){
@@ -101,7 +103,7 @@ public class Testing {
     
     public static void test(){
         for (int i = 0; i < validAnswers.length; i++){
-            String nextGuess = testingWord(validAnswers[i], validAnswers[wordTracker]); // "salet", second parameter
+            String nextGuess = testingWord(validAnswers[i], "salet"); // "salet", second parameter
             while (!nextGuess.equals(validAnswers[i])){
                 guesses.add(nextGuess);
                 nextGuess = testingWord(validAnswers[i], nextGuess);
@@ -115,7 +117,7 @@ public class Testing {
             setVariables();
             blackLetters.clear();
             guesses.clear();
-            guesses.add(validAnswers[wordTracker]); // "salet"
+            guesses.add("salet"); // "salet"
         }
     }
 
@@ -127,14 +129,14 @@ public class Testing {
         }
 
         try{
-            FileWriter fw = new FileWriter("/Users/arjun/Documents/GitHub/WordleSolver/wordleBotSolverResultsIdeas.csv", true);
+            FileWriter fw = new FileWriter("/Users/arjun/Documents/GitHub/WordleSolver/wordleBotSolverResultsSalet.csv", true);
             BufferedWriter bw = new BufferedWriter(fw);
             PrintWriter pw = new PrintWriter(bw);
 
             String text = guesses.stream().map(Object::toString).collect(Collectors.joining(", "));
 
-            //pw.println(originalWord + "," + "\"" + text + "\"" + "," + num);
-            pw.println(wordTracker + "," + originalWord + findAverage)
+            pw.println(originalWord + "," + "\"" + text + "\"" + "," + num);
+            //pw.println(wordTracker + "," + originalWord + "," + findAverage);
             pw.flush();        
         }
         catch (Exception E){
@@ -228,6 +230,10 @@ public class Testing {
         ArrayList<Integer> wordFreq = new ArrayList<Integer>();
         int score = 0;
         wordFrequency finalElement = new wordFrequency(refinedAnswers.get(0), 0);
+        ArrayList<String> validAnswersAsList = new ArrayList<String>();
+        for (int i = 0; i < validAnswers.length; i++){
+            validAnswersAsList.add(validAnswers[i]);
+        }
         for (int i = 0; i < listOfWords.size(); i++){
             words.add(listOfWords.get(i).getWord());
             wordFreq.add(listOfWords.get(i).getNum());
@@ -244,8 +250,10 @@ public class Testing {
                     }
                 }
                 if (element.getNum() > score){
-                    score = element.getNum();
-                    finalElement = element;
+                    if (validAnswersAsList.contains(element.getWord())){
+                        score = element.getNum();
+                        finalElement = element;
+                    }
                 }
             }
         }

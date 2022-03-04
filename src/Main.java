@@ -182,6 +182,10 @@ public class Main {
         ArrayList<Integer> wordFreq = new ArrayList<Integer>();
         int score = 0;
         wordFrequency finalElement = new wordFrequency(refinedAnswers.get(0), 0);
+        ArrayList<String> validAnswersAsList = new ArrayList<String>();
+        for (int i = 0; i < validAnswers.length; i++){
+            validAnswersAsList.add(validAnswers[i]);
+        }
         for (int i = 0; i < listOfWords.size(); i++){
             words.add(listOfWords.get(i).getWord());
             wordFreq.add(listOfWords.get(i).getNum());
@@ -198,8 +202,10 @@ public class Main {
                     }
                 }
                 if (element.getNum() > score){
-                    score = element.getNum();
-                    finalElement = element;
+                    if (validAnswersAsList.contains(element.getWord())){
+                        score = element.getNum();
+                        finalElement = element;
+                    }
                 }
             }
         }
