@@ -26,7 +26,7 @@ public class Main {
     public static void setWordFrequencyList(){
         Scanner sc = null;
         try {
-            sc = new Scanner(new File("/Users/arjun/Documents/GitHub/WordleSolver/unigram_freq.csv"));
+            sc = new Scanner(new File("C:/Users/arjun/Desktop/Home/Code/GitHub/WordleSolver/unigram_freq.csv"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -50,7 +50,7 @@ public class Main {
         
         Scanner sc = null;
         try {
-            sc = new Scanner(new File("/Users/arjun/Documents/GitHub/WordleSolver/valid_guesses.csv"));
+            sc = new Scanner(new File("C:/Users/arjun/Desktop/Home/Code/GitHub/WordleSolver/valid_guesses.csv"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -66,7 +66,7 @@ public class Main {
 
         Scanner sc2 = null;
         try {
-            sc2 = new Scanner(new File("/Users/arjun/Documents/GitHub/WordleSolver/valid_solutions.csv"));
+            sc2 = new Scanner(new File("C:/Users/arjun/Desktop/Home/Code/GitHub/WordleSolver/valid_solutions.csv"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

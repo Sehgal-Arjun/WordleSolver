@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "WordleSolver_374bd01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Automatic",
+            "request": "launch",
+            "mainClass": "Automatic",
+            "projectName": "WordleSolver_374bd01"
+        },
+        {
+            "type": "java",
             "name": "Launch Testing",
             "request": "launch",
             "mainClass": "Testing",

@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
-import java.util.stream.Collectors;;
+import java.util.stream.Collectors;
 
 public class Testing {
     
