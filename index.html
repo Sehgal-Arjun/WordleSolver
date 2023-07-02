@@ -1,15 +1,62 @@
 <!DOCTYPE html>
 <head lang="en">
     <title>Wordle Solver</title>
-    <script type = "module" src="./index.js"></script>
+    <script type = "module" src="js/index.js"></script>
+    <link rel="stylesheet" defer href="css/index.css">
+
+    <script type = "module" src = "js/tabpress.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/inputpage.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
 </head>
-<body>
-    <input id="userword" placeholder="Your Inputted Word">
-    <br>
-    <input id="wordleresults" placeholder="Response (eg bybbg)">
-    <br>
-    <br>
-    <button id="btn">Submit</button>
-    <p id="responsehere"></p>
-    <p id="yourguesses"></p>
+<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+    <div class="container">
+
+        <div class="wordlegrid" id="wordlegrid">
+            <div class = "wordlegriditem" id="11" style="background-color: gray;"><input id = "11 input" type="text" class="input-field"/></div>
+            <div class = "wordlegriditem"  id="12" style="background-color: gray;"><input id = "12 input" type="text" class="input-field"/></div>
+            <div class = "wordlegriditem"  id="13" style="background-color: gray;"><input id = "13 input" type="text" class="input-field"/></div>
+            <div class = "wordlegriditem"  id="14" style="background-color: gray;"><input id = "14 input" type="text" class="input-field"/></div>
+            <div class = "wordlegriditem"  id="15" style="background-color: gray;"><input id = "15 input" type="text" class="input-field"/></div>
+            <div class = "wordlegriditem"  id="21"></div>
+            <div class = "wordlegriditem"  id="22"></div>
+            <div class = "wordlegriditem"  id="23"></div>
+            <div class = "wordlegriditem"  id="24"></div>
+            <div class = "wordlegriditem"  id="25"></div>
+            <div class = "wordlegriditem"  id="31"></div>
+            <div class = "wordlegriditem"  id="32"></div>
+            <div class = "wordlegriditem"  id="33"></div>
+            <div class = "wordlegriditem"  id="34"></div>
+            <div class = "wordlegriditem"  id="35"></div>
+            <div class = "wordlegriditem"  id="41"></div>
+            <div class = "wordlegriditem"  id="42"></div>
+            <div class = "wordlegriditem"  id="43"></div>
+            <div class = "wordlegriditem"  id="44"></div>
+            <div class = "wordlegriditem"  id="45"></div>
+            <div class = "wordlegriditem"  id="51"></div>
+            <div class = "wordlegriditem"  id="52"></div>
+            <div class = "wordlegriditem"  id="53"></div>
+            <div class = "wordlegriditem"  id="54"></div>
+            <div class = "wordlegriditem"  id="55"></div>
+            <div class = "wordlegriditem"  id="61"></div>
+            <div class = "wordlegriditem"  id="62"></div>
+            <div class = "wordlegriditem"  id="63"></div>
+            <div class = "wordlegriditem"  id="64"></div>
+            <div class = "wordlegriditem"  id="65"></div>
+            
+
+        </div>
+        <form class="card-form" onsubmit= "return false" id="inputform" action="">
+            <div class="input">
+                <button id = "inputbutton" class="action-button">Submit</button>
+            </div>
+        </form>
+        <p id="responsehere"></p>
 </body>

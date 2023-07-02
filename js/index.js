@@ -2,7 +2,6 @@ import jsonguesses from './valid_guesses.json' assert {type:"json"};
 import jsonanswers from './valid_solutions.json' assert {type:"json"};
 import origlistofwords from './unigram_freq.json' assert {type:"json"};
 
-
 let validguesses = []
 let validanswers = []
 let newlistofwords = [];
@@ -39,15 +38,115 @@ for (const element of jsonanswers){
 
 refinedanswers = validguesses;
 
-console.log(listofwords);
-//console.log(validanswers);
-//console.log(refinedanswers);
+let currentrow = 1;
 
-let button = document.getElementById("btn");
-button.addEventListener('click', function(){
-    let result = document.getElementById("wordleresults").value.split("");
+let alldivs = document.getElementsByClassName("wordlegriditem");
+for (let i = 0; i < alldivs.length; i++){
+    alldivs[i].addEventListener('click', function(){
+        if (alldivs[i].id.charAt(0) == currentrow){
+            if (alldivs[i].style.backgroundColor == 'gray'){
+                alldivs[i].style.backgroundColor = 'yellow';
+            }
+            else if (alldivs[i].style.backgroundColor == 'yellow'){
+                alldivs[i].style.backgroundColor = 'green'
+            }
+            else if (alldivs[i].style.backgroundColor == 'green'){
+                alldivs[i].style.backgroundColor = 'gray';
+            }
+            else{
+                alldivs[i].style.backgroundColor = 'gray';
+            }
+            
+        }
+    });
+}
+
+let inputs = document.getElementsByClassName("input-field");
+for (let i = 0; i < inputs.length; i++){
+    inputs[i].addEventListener('keypress', function(){
+        if (inputs[i].value.length > 0){
+            console.log('poo');
+            inputs[i].value = 'a';
+        }
+    })
+}
+
+let submitbutton = document.getElementById('inputbutton');
+submitbutton.addEventListener('click', function(){
+    let working = true;
+    for (let i = 1; i < 6; i++){
+        if (document.getElementById(currentrow + "" + i + " input").value.length != 1){
+            working = false;
+            console.log(working);
+        }
+    }
+    if (working){
+        //let response = document.getElementById("wordleresults").value;
+        let word = "";
+        for (let i = 1; i < 6; i++){
+            word = word + document.getElementById(currentrow + "" + i + " input").value;
+        }
+
+        let response = "";
+        for (let i = 1; i < 6; i++){
+            let col = document.getElementById(currentrow + "" + i).style.backgroundColor.toLowerCase();
+            if (col == "green") { col = "g"; }
+            else if (col == "gray") { col = "b"; }
+            else if (col == "yellow") { col = "y"; }
+            else { col == "b"; }
+            response = response + col;
+        }
+        console.log('response: ' + response);
+        makemove(word, response);
+        disableediting(currentrow, word, response);
+        currentrow++;
+        initnewrow(currentrow);
+    }
+})
+
+function disableediting(row, wordstr, responsestr){
+    let divs = document.getElementsByClassName("wordlegriditem");
+    let counter = 0;
+    let word = wordstr.split("");
+    let response = responsestr.split("");
+    let color = 'gray';
+    for (let i = 0; i < divs.length; i++){
+        if (divs[i].id.charAt(0) == currentrow){
+            if (response[counter] == 'g'){
+                color = 'green';
+            }
+            else if (response[counter] == 'y'){
+                color = 'yellow';
+            }
+            else if (response[counter] == 'b'){
+                color = 'gray';
+            }
+            else {
+                color = 'gray';
+            }
+            divs[i].innerHTML = '<h1>' + word[counter] + '</h1>';
+            divs[i].style.backgroundColor = color;
+            counter++;
+        }
+    }
+}
+
+function initnewrow(row){
+    let divs = document.getElementsByClassName("wordlegriditem");
+    let counter = 1;
+    for (let i = 0; i < divs.length; i++){
+        if (divs[i].id.charAt(0) == currentrow){
+            divs[i].innerHTML = '<input id = "' + currentrow + counter + ' input" type="text" class="input-field"/>';
+            divs[i].style.backgroundColor = 'gray';
+            counter++;
+        }
+    }
+}
+
+function makemove(wordparam, response){
+    let result = response.split("");
     let removelist = [];
-    let word = document.getElementById("userword").value.split("");
+    let word = wordparam.split("");
 
     for (let i = 0; i < result.length; i++){
         if (result[i] == 'b'){
@@ -97,8 +196,6 @@ button.addEventListener('click', function(){
         }
     }
 
-    console.log(refinedanswers);
-
     for (const element of removelist){
         if (refinedanswers.includes(element)){
             let index = refinedanswers.indexOf(element);
@@ -145,9 +242,8 @@ button.addEventListener('click', function(){
         }
 
         finalword = finalelement;
-        document.getElementById("responsehere").innerHTML = 'Use: ' + finalword;
-        document.getElementById('responsehere').innerHTML = document.getElementById('responsehere').innerHTML + '<br><button id="listbtn">See Other Options</button>';
-        document.getElementById("yourguesses").innerHTML = document.getElementById("yourguesses").innerHTML + "<br>" +word.join("") + "<br>"; 
+        document.getElementById("responsehere").innerHTML = '<h2>Use: ' + finalword + '</h2>';
+        document.getElementById('responsehere').innerHTML = document.getElementById('responsehere').innerHTML + '<button id = "listbtn" class="action-button">See all options</button>';
 
         document.getElementById('listbtn').addEventListener('click', function(){
             let list = refinedanswers[0];
@@ -160,7 +256,4 @@ button.addEventListener('click', function(){
     else{
         document.getElementById("responsehere").innerHTML = "Nice! You got in it " + count + " tries!";
     }
-
-    console.log("refinedanswers:");
-    console.log(refinedanswers)
-});
+};

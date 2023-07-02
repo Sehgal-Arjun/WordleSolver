@@ -1,0 +1,180 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "DM Sans", sans-serif;
+	line-height: 1.5;
+	background-color: #f1f3fb;
+	padding: 0 2rem;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+input {
+	appearance: none;
+	border-radius: 0;
+}
+
+.card {
+	margin: 2rem auto;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 425px;
+	background-color: #FFF;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px 0 rgba(#999, .25);
+	padding: .75rem;
+}
+
+.card-image {
+	border-radius: 8px;
+	overflow: hidden;
+	padding-bottom: 65%;
+	background-image: url("aslartlogo.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0 5%;
+	position: relative;
+}
+
+.card-heading {
+	position: absolute;
+	left: 10%;
+	top: 15%;
+	right: 10%;
+	font-size: 1.75rem;
+	font-weight: 700;
+	color: #735400;
+	line-height: 1.222;
+}
+.card-heading small {
+    display: block;
+    font-size: .75em;
+    font-weight: 400;
+    margin-top: .25em;
+}
+
+.card-form {
+	padding: 2rem 1rem 0;
+}
+
+.input {
+	display: flex;
+	flex-direction: column-reverse;
+	position: relative;
+	padding-top: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.input-label {
+	color: #8597a3;
+	position: absolute;
+	top: 1.5rem;
+	transition: .25s ease;
+}
+
+.input-field {
+	border: 0;
+	z-index: 1;
+	background-color: transparent;
+	border-bottom: 2px solid #eee; 
+	font: inherit;
+	font-size: 2rem;
+	padding: .25rem 0;
+}
+.input-field focus {
+    outline: 0;
+    border-bottom-color: #6658d3;
+    color: #6658d3;
+    transform: translateY(-1.5rem);
+}
+
+.action {
+	margin-top: 2rem;
+}
+
+.action-button {
+	font: inherit;
+	font-size: 1.25rem;
+	padding: 1em;
+	width: 100%;
+	font-weight: 500;
+	background-color: #73A0AD;
+	border-radius: 6px;
+	color: #FFF;
+	border: 0;
+}
+
+.card-info {
+	padding: 1rem 1rem;
+	text-align: center;
+	font-size: .875rem;
+	color: #8597a3;
+}
+
+.card-info a {
+    display: block;
+    color: #73A0AD;
+    text-decoration: none;
+}
+
+
+
+
+.container {
+  background-color: #ffffff;
+  width: 90%;
+  max-width: 34.37em;
+  position: relative;
+  margin: 3.12em auto;
+  padding: 3.12em 1.25em;
+  border-radius: 0.43em;
+  box-shadow: 0 1.25em 2.18em rgb(1, 28, 71, 0.3);
+}
+
+/*COMMENT THIS OUT IF YOU WANT TO CHECK INPUT*/
+input[type="file"] {
+  display: none;
+}
+
+
+button:hover{
+    cursor: pointer;
+}
+
+label {
+  display: block;
+  position: relative;
+  background-color: #AEBC40;
+  color: #ffffff;
+  font-size: 1.12em;
+  font-weight: 500;
+  text-align: center;
+  width: 18.75em;
+  padding: 1.12em 0;
+  margin: auto;
+  border-radius: 0.31em;
+  cursor: pointer;
+}
+#num-of-files {
+  font-weight: 400;
+  text-align: center;
+  margin: 1.25em 0 1.87em 0;
+}
+ul {
+  list-style-type: none;
+}
+.container li {
+  font-weight: 500;
+  background-color: #eff5ff;
+  color: #AEBC40;
+  margin-bottom: 1em;
+  padding: 1.1em 1em;
+  border-radius: 0.3em;
+  display: flex;
+  justify-content: space-between;
+}
